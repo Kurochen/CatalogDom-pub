@@ -1,0 +1,30 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /houses_public/{house} {
+      allow read: if true;
+    }
+    
+    match /houses_private/{house} {
+      allow read: if request.auth.uid == 
+      get(/databases/$(database)/documents/houses_public/$(house)).data.userId;
+    }
+    
+    match /users_public/{user} {
+      allow read: if true;
+    }
+    
+    match /users_private/{user} {
+      allow read: if request.auth.uid == user;
+    }
+    
+    match /utils/{u} {
+      allow read: if true;
+    }
+    
+    match /pays_bill/{pay} {
+      allow read: if request.auth.uid == 
+      resource.data.userId;
+    }
+  }
+}

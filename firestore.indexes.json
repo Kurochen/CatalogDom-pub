@@ -1,0 +1,212 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "verifiedUser",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "material.concreteType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "material.blockType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "material.woodType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "floors",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "material.name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "roof",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "typeBuilding",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "area",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "changedAt",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "userId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "changedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "verifiedUser",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "changedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "houses_public",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "visible",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "changedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "houses_public",
+      "fieldPath": "description",
+      "indexes": []
+    },
+    {
+      "collectionGroup": "houses_public",
+      "fieldPath": "images",
+      "indexes": []
+    }
+  ]
+}
